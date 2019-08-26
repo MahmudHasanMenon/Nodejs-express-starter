@@ -56,7 +56,6 @@
     "test": "NODE_ENV=test MONGO_HOST=mongodb://localhost/nrs-test jest",
     "test:watch": "NODE_ENV=test MONGO_HOST=mongodb://localhost/nrs-test jest --watch",
     "test:coverage": "NODE_ENV=test MONGO_HOST=mongodb://localhost/nrs-test jest --coverage",
-    "precommit": "eslint --ext=.js src && npm run test",
     "apidoc": "apidoc -i ./src -f .route.js -o ./docs"
   },
   "apidoc": {
